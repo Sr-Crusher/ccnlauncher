@@ -41,6 +41,16 @@
                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
                 "url": "https://raw.githubusercontent.com/Sr-Crusher/ccnlauncher/main/files/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3",
+              "name": "Maven Artifact",
+              "type": "Library",
+              "artifact": {
+                "size": 178339,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/Sr-Crusher/ccnlauncher/main/files/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
             }
           ]
         },
