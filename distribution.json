@@ -27,8 +27,8 @@
               "name": "Forge Version Manifest",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11797,
-                "MD5": "345315b61ff6f803997f63efaff587bb",
+                "size": 3935,
+                "MD5": "091c44c1bc62f24d0464932eb1526816",
                 "url": "https://raw.githubusercontent.com/Sr-Crusher/ccnlauncher/main/files/versions/1.12.2-forge-14.23.5.2864/1.12.2-forge-14.23.5.2864.json"
               }
             }
