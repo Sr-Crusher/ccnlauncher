@@ -31,6 +31,76 @@
                 "MD5": "091c44c1bc62f24d0464932eb1526816",
                 "url": "https://raw.githubusercontent.com/Sr-Crusher/ccnlauncher/main/files/versions/1.12.2-forge-14.23.5.2864/1.12.2-forge-14.23.5.2864.json"
               }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "LaunchWrapper",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.2@jar",
+              "name": "ASM All",
+              "type": "Library",
+              "artifact": {
+                "size": 247787,
+                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "JLine",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://maven.minecraftforge.net/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "LZMA",
+              "type": "Library",
+              "artifact": {
+                "size": 68223,
+                "MD5": "b5d2c48d9b8a0b33c0e2988e44e44c02",
+                "url": "https://maven.minecraftforge.net/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Vecmath",
+              "type": "Library",
+              "artifact": {
+                "size": 353338,
+                "MD5": "0fe86f773d56f598f6d805e22d3b4fd2",
+                "url": "https://maven.minecraftforge.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Trove4J",
+              "type": "Library",
+              "artifact": {
+                "size": 2373508,
+                "MD5": "6be8f00ebb6e4df54e29fc9e17a4d2e2",
+                "url": "https://maven.minecraftforge.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Maven Artifact",
+              "type": "Library",
+              "artifact": {
+                "size": 178339,
+                "MD5": "c5ec09c68e77e3e1e2b85e6c8b3d2c6a",
+                "url": "https://maven.minecraftforge.net/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
             }
           ]
         },
