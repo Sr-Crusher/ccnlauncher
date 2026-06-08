@@ -1,0 +1,4666 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Pixelmon-1.12.2",
+      "name": "Pixelmon (Minecraft 1.12.2)",
+      "description": "Pixelmon Running Minecraft 1.12.2 (Forge v14.23.5.2864)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2864:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4301162,
+            "MD5": "f7e3bd1e18b2cf81691f1d565eeb40ba",
+            "url": "https://link-do-seu-servidor-aqui.com/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2864/forge-1.12.2-14.23.5.2864-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2864",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11797,
+                "MD5": "345315b61ff6f803997f63efaff587bb",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/versions/1.12.2-forge-14.23.5.2864/1.12.2-forge-14.23.5.2864.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://link-do-seu-servidor-aqui.com/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wily.betterfurnaces:betterfurnacesreforged:1.12.2-1.5.5@jar",
+          "name": "BetterFurnaces Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 208961,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/BetterFurnacesReforged-1.12.2-1.5.5.jar",
+            "MD5": "13cf56e1c47f40a254dc8c5f2325953e"
+          }
+        },
+        {
+          "id": "com.qkninja:clockhud:1.12-1.4.0@jar",
+          "name": "Clock HUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25577,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/ClockHUD-1.12-1.4.0.jar",
+            "MD5": "ee9ed4fab6489c095bc3a0c0a623c5a3"
+          }
+        },
+        {
+          "id": "com.gitlab.cdagaming:craftpresence:1.7.6@jar",
+          "name": "CraftPresence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 537907,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/Discord%20CCN.jar",
+            "MD5": "7bf39025cd417ece8edc327eb5df330a"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:1.12.2@jar",
+          "name": "Fancymenu_1.5.2_MC_1.12",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522303,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/fancymenu_1.5.2_MC_1.12-1.12.2.jar",
+            "MD5": "8579406f723ff4f9abb464ff3d768c4d"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftblib:5.4.7.2@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 934370,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/FTBLib-5.4.7.2.jar",
+            "MD5": "ea749a3a3391d490ffcdf025e5de48d9"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftbquests:1202.9.0.15@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1091954,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/FTBQuests-1202.9.0.15.jar",
+            "MD5": "5cd033804a5f2ba8f87f539201a22fb2"
+          }
+        },
+        {
+          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263258,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/InventoryTweaks-1.63.jar",
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          }
+        },
+        {
+          "id": "cpw.mods:ironchest:1.12.2-7.0.72.847@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 956692,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/ironchest-1.12.2-7.0.72.847.jar",
+            "MD5": "743179bc3a8f50751efbb019acc759a9"
+          }
+        },
+        {
+          "id": "com.latmod.mods:itemfilters:1.0.4.2@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 78935,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/ItemFilters-1.0.4.2.jar",
+            "MD5": "c89d595cdef3cc93f2acbc31333e418b"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.15.0.292@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 651472,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/JEI.jar",
+            "MD5": "791ac0fd9aaa681c3d38094c965b9657"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6780710,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/JourneyMap.jar",
+            "MD5": "41f581c60bd09f207dffb76088026771"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.0.3@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134889,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/konkrete_1.0.3_MC_1.12-1.12.2.jar",
+            "MD5": "5d39a03ae9de2c8ab29195cf5eb9ec0b"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.3.5-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 649252,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/MC%20Lib.jar",
+            "MD5": "30a64410b0cb66e19a02e3db6afcd998"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
+          "name": "OptiFine 1.12.2_HD_U_F5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2598821,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/OptiFine.jar",
+            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b"
+          }
+        },
+        {
+          "id": "com.vecoo.pixlemonquests:pixelmonquests:1.0.3@jar",
+          "name": "PixelmonQuests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69606,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/PixelmonQuests-forge-1.0.3-1.12.2.jar",
+            "MD5": "c6484b7658cfeb224e01c7b137f69a8c"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:1.0.35@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 397467,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/TravelersBackpack-1.12.2-1.0.35.jar",
+            "MD5": "ec9e10a72424dc0d0fd73e5af8d6544d"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/forgemods/required/Waila.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          }
+        },
+        {
+          "id": "betterfurnacesreforged.cfg",
+          "name": "betterfurnacesreforged.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/betterfurnacesreforged.cfg",
+            "MD5": "90edf9880cac19e8bb0a7e66a9268558",
+            "path": "config/betterfurnacesreforged.cfg"
+          }
+        },
+        {
+          "id": "clockhud.cfg",
+          "name": "clockhud.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 466,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/clockhud.cfg",
+            "MD5": "566d2604de8ad39acfd16a00e678868a",
+            "path": "config/clockhud.cfg"
+          }
+        },
+        {
+          "id": "craftpresence.properties",
+          "name": "craftpresence.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2504,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/craftpresence.properties",
+            "MD5": "80801aaeb5ca07356aa34c48db380c27",
+            "path": "config/craftpresence.properties"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1448,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/config.txt",
+            "MD5": "c1d7bb98ece09841a86175b3b88cc693",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "07f64ca74b24df0a77c8d840009fed6b",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "pixelmon_back.txt",
+          "name": "pixelmon_back.txt",
+          "type": "File",
+          "artifact": {
+            "size": 413,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/customization/pixelmon_back.txt",
+            "MD5": "33d17f20064d20b1fb3c87cec405cbf2",
+            "path": "config/fancymenu/customization/pixelmon_back.txt"
+          }
+        },
+        {
+          "id": "pixelmon_front.txt",
+          "name": "pixelmon_front.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5557,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/customization/pixelmon_front.txt",
+            "MD5": "539750a1f7d79329e65b3611cdc4df9b",
+            "path": "config/fancymenu/customization/pixelmon_front.txt"
+          }
+        },
+        {
+          "id": "pixelmon_scale_large.txt",
+          "name": "pixelmon_scale_large.txt",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/customization/pixelmon_scale_large.txt",
+            "MD5": "dc72e46082b6a032fff52b9c0a011b4c",
+            "path": "config/fancymenu/customization/pixelmon_scale_large.txt"
+          }
+        },
+        {
+          "id": "pixelmon_scale_small.txt",
+          "name": "pixelmon_scale_small.txt",
+          "type": "File",
+          "artifact": {
+            "size": 193,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/customization/pixelmon_scale_small.txt",
+            "MD5": "4de30b6ba74348df575f449dd20a0736",
+            "path": "config/fancymenu/customization/pixelmon_scale_small.txt"
+          }
+        },
+        {
+          "id": "excludedmenus.txt",
+          "name": "excludedmenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/excludedmenus.txt",
+            "MD5": "a3351750ef79f76f39682a79949e0686",
+            "path": "config/fancymenu/excludedmenus.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 20011,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/locals/de_de.local",
+            "MD5": "f7672ca255f81aa57e8641fd42b0f694",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 19034,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/locals/en_us.local",
+            "MD5": "2bcaa39db6f9c6bc2aae2b46809e1965",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 14275,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "956b052e15281169f90e9e5bd9b9c3af",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14690,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "2e4feed8d5692ef3f657f69453528535",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "icon16x16.png",
+          "name": "icon16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 864,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon16x16.png",
+            "MD5": "dd3c231174500bab05cfee702f9147c0",
+            "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+          }
+        },
+        {
+          "id": "icon32x32.png",
+          "name": "icon32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2155,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon32x32.png",
+            "MD5": "782be5e03f3f3ea2642f81f94ecda105",
+            "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+          }
+        },
+        {
+          "id": "clear_back.png",
+          "name": "clear_back.png",
+          "type": "File",
+          "artifact": {
+            "size": 1577,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/clear_back.png",
+            "MD5": "9f6042adfa4ed5f2e7f0850b033fa73f",
+            "path": "config/fancymenu/pixelmon_resources/clear_back.png"
+          }
+        },
+        {
+          "id": "discord_hover.png",
+          "name": "discord_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 8688,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/discord_hover.png",
+            "MD5": "78a9cd0bd81c1375b95288fa0322c678",
+            "path": "config/fancymenu/pixelmon_resources/discord_hover.png"
+          }
+        },
+        {
+          "id": "discord_normal.png",
+          "name": "discord_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 8748,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/discord_normal.png",
+            "MD5": "a8af52be6b48e851841fc1fd847fc26d",
+            "path": "config/fancymenu/pixelmon_resources/discord_normal.png"
+          }
+        },
+        {
+          "id": "icon-bar.png",
+          "name": "icon-bar.png",
+          "type": "File",
+          "artifact": {
+            "size": 1750,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/icon-bar.png",
+            "MD5": "d5507fada52177b1a50dbbf5ff7fde3a",
+            "path": "config/fancymenu/pixelmon_resources/icon-bar.png"
+          }
+        },
+        {
+          "id": "logs_hover.png",
+          "name": "logs_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 2770,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/logs_hover.png",
+            "MD5": "dfa9c5539e703819c689fcdbcbf620f4",
+            "path": "config/fancymenu/pixelmon_resources/logs_hover.png"
+          }
+        },
+        {
+          "id": "logs_normal.png",
+          "name": "logs_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 2734,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/logs_normal.png",
+            "MD5": "c15ddc3815eef12819693ae820912633",
+            "path": "config/fancymenu/pixelmon_resources/logs_normal.png"
+          }
+        },
+        {
+          "id": "node_hover.png",
+          "name": "node_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 6982,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/node_hover.png",
+            "MD5": "c9235220096aa8a1fb4c7d598480ecbc",
+            "path": "config/fancymenu/pixelmon_resources/node_hover.png"
+          }
+        },
+        {
+          "id": "node_normal.png",
+          "name": "node_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 9550,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/node_normal.png",
+            "MD5": "f2f0c143090b7323b3c75ce2b283126e",
+            "path": "config/fancymenu/pixelmon_resources/node_normal.png"
+          }
+        },
+        {
+          "id": "reforged-bg.png",
+          "name": "reforged-bg.png",
+          "type": "File",
+          "artifact": {
+            "size": 1619385,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/reforged-bg.png",
+            "MD5": "45f295c125f42b64144bfed55c63be58",
+            "path": "config/fancymenu/pixelmon_resources/reforged-bg.png"
+          }
+        },
+        {
+          "id": "reforged-logo.png",
+          "name": "reforged-logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 22057,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/reforged-logo.png",
+            "MD5": "f56a41b4c9b2e7b86c7f60fc4cffb133",
+            "path": "config/fancymenu/pixelmon_resources/reforged-logo.png"
+          }
+        },
+        {
+          "id": "sidebar-slice_full.png",
+          "name": "sidebar-slice_full.png",
+          "type": "File",
+          "artifact": {
+            "size": 13592,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/sidebar-slice_full.png",
+            "MD5": "c3f717bbc0ddc22d7c5024a399e11232",
+            "path": "config/fancymenu/pixelmon_resources/sidebar-slice_full.png"
+          }
+        },
+        {
+          "id": "topbar-slice.png",
+          "name": "topbar-slice.png",
+          "type": "File",
+          "artifact": {
+            "size": 32440,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/topbar-slice.png",
+            "MD5": "9a94869318058e53c75679517c8d7c87",
+            "path": "config/fancymenu/pixelmon_resources/topbar-slice.png"
+          }
+        },
+        {
+          "id": "website_hover.png",
+          "name": "website_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 2978,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/website_hover.png",
+            "MD5": "9e056bf3919cccf7a5ba33bd30afc074",
+            "path": "config/fancymenu/pixelmon_resources/website_hover.png"
+          }
+        },
+        {
+          "id": "website_normal.png",
+          "name": "website_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 2955,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/website_normal.png",
+            "MD5": "669fe56afc403b75db3047042e39ead4",
+            "path": "config/fancymenu/pixelmon_resources/website_normal.png"
+          }
+        },
+        {
+          "id": "wiki_hover.png",
+          "name": "wiki_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 3951,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/wiki_hover.png",
+            "MD5": "f7f67f1d17f397d2e45d89da51873c97",
+            "path": "config/fancymenu/pixelmon_resources/wiki_hover.png"
+          }
+        },
+        {
+          "id": "wiki_normal.png",
+          "name": "wiki_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 3900,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/fancymenu/pixelmon_resources/wiki_normal.png",
+            "MD5": "c31e683916c30e0e3e9b778afd53429f",
+            "path": "config/fancymenu/pixelmon_resources/wiki_normal.png"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/forge.cfg",
+            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2206,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/forgeChunkLoading.cfg",
+            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "ftblib.cfg",
+          "name": "ftblib.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2007,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/ftblib.cfg",
+            "MD5": "fc293a7530dc0b4b8dcff34a86d1970f",
+            "path": "config/ftblib.cfg"
+          }
+        },
+        {
+          "id": "InvTweaks.cfg",
+          "name": "InvTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 746,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/InvTweaks.cfg",
+            "MD5": "4379dc61d491c3c08ab0f5c27f4e88df",
+            "path": "config/InvTweaks.cfg"
+          }
+        },
+        {
+          "id": "InvTweaksRules.txt",
+          "name": "InvTweaksRules.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1237,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/InvTweaksRules.txt",
+            "MD5": "92d24282b6449e90a1ce9ca621c7f43e",
+            "path": "config/InvTweaksRules.txt"
+          }
+        },
+        {
+          "id": "InvTweaksTree.txt",
+          "name": "InvTweaksTree.txt",
+          "type": "File",
+          "artifact": {
+            "size": 62968,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/InvTweaksTree.txt",
+            "MD5": "6e603441d60e9330b0ceb8fd9dc5eec1",
+            "path": "config/InvTweaksTree.txt"
+          }
+        },
+        {
+          "id": "ironchest.cfg",
+          "name": "ironchest.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/ironchest.cfg",
+            "MD5": "7b34c4495b7cdcc5143fcc86a795b68a",
+            "path": "config/ironchest.cfg"
+          }
+        },
+        {
+          "id": "itemBlacklist.cfg",
+          "name": "itemBlacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 679,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/jei/itemBlacklist.cfg",
+            "MD5": "46b5726b489d2a4189bf1659da1c93b9",
+            "path": "config/jei/itemBlacklist.cfg"
+          }
+        },
+        {
+          "id": "jei.cfg",
+          "name": "jei.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2955,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/jei/jei.cfg",
+            "MD5": "bf1c3d55cf41bb8cf6b1affa4654d5d2",
+            "path": "config/jei/jei.cfg"
+          }
+        },
+        {
+          "id": "searchColors.cfg",
+          "name": "searchColors.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1994,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/jei/searchColors.cfg",
+            "MD5": "037738e98687294dc02daf0196932b99",
+            "path": "config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "worldSettings.cfg",
+          "name": "worldSettings.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/jei/worldSettings.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/worldSettings.cfg"
+          }
+        },
+        {
+          "id": "journeymap_server.cfg",
+          "name": "journeymap_server.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 633,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/journeymap_server.cfg",
+            "MD5": "ec1f450ddbf068d578328b97f5e50d1b",
+            "path": "config/journeymap_server.cfg"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/konkrete/locals/en_us.local",
+            "MD5": "fb6747fee952636fade4e823aab98908",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 882,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/mclib/config.json",
+            "MD5": "0c914f80d685c7bb0091b95401c0eac1",
+            "path": "config/mclib/config.json"
+          }
+        },
+        {
+          "id": "op_access.json",
+          "name": "op_access.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/mclib/op_access.json",
+            "MD5": "db4457e13f06dcc046de5399189acced",
+            "path": "config/mclib/op_access.json"
+          }
+        },
+        {
+          "id": "pixelmon.hocon",
+          "name": "pixelmon.hocon",
+          "type": "File",
+          "artifact": {
+            "size": 35850,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/pixelmon.hocon",
+            "MD5": "ae8642d460eddf05fb718c651aa778dc",
+            "path": "config/pixelmon.hocon"
+          }
+        },
+        {
+          "id": "pixelmoninformation.cfg",
+          "name": "pixelmoninformation.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 6423,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/pixelmoninformation.cfg",
+            "MD5": "d69613c8834bc7382844c58bc1269fe4",
+            "path": "config/pixelmoninformation.cfg"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/splash.properties",
+            "MD5": "714b54462873b85a4317322ef7d21154",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "tcg.cfg",
+          "name": "tcg.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3162,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/tcg.cfg",
+            "MD5": "fca5e21ce7c24921463660279b76e313",
+            "path": "config/tcg.cfg"
+          }
+        },
+        {
+          "id": "travelersbackpack.cfg",
+          "name": "travelersbackpack.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1837,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/travelersbackpack.cfg",
+            "MD5": "baca7a9d28763c80f649ab502c6c2b84",
+            "path": "config/travelersbackpack.cfg"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/waila/theme/dark.json",
+            "MD5": "91f7d992164fa6c216f5a23059b2137a",
+            "path": "config/waila/theme/dark.json"
+          }
+        },
+        {
+          "id": "vanilla.json",
+          "name": "vanilla.json",
+          "type": "File",
+          "artifact": {
+            "size": 140,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/waila/theme/vanilla.json",
+            "MD5": "93f67ec8cc14f861d01b4b930b49525b",
+            "path": "config/waila/theme/vanilla.json"
+          }
+        },
+        {
+          "id": "waila.cfg",
+          "name": "waila.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3041,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/config/waila/waila.cfg",
+            "MD5": "4f3ea1b127e6503e46f2ea2270ca2a86",
+            "path": "config/waila/waila.cfg"
+          }
+        },
+        {
+          "id": "chardata.properties",
+          "name": "chardata.properties",
+          "type": "File",
+          "artifact": {
+            "size": 249752,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/craftpresence/chardata.properties",
+            "MD5": "61208e897aa1be5e0767839617f911f5",
+            "path": "craftpresence/chardata.properties"
+          }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 1910,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.core.config",
+            "MD5": "7a5f6e1d453874193b27a6aea878526f",
+            "path": "journeymap/config/5.7/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 807,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.fullmap.config",
+            "MD5": "9f9246b21b328e78d217833d98680cc9",
+            "path": "journeymap/config/5.7/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1280,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.minimap.config",
+            "MD5": "c27a424d43af2d599f9b56f62f4307ff",
+            "path": "journeymap/config/5.7/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 1282,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.minimap2.config",
+            "MD5": "250a02f97921fa3d2e3f7591ac4df9f0",
+            "path": "journeymap/config/5.7/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 1058,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.topo.config",
+            "MD5": "06454699d3a66e1c894626e3104bee83",
+            "path": "journeymap/config/5.7/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.waypoint.config",
+            "MD5": "1e12913c894d425d06ab164ae04c5a48",
+            "path": "journeymap/config/5.7/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 468,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/config/5.7/journeymap.webmap.config",
+            "MD5": "d56af3f4b5e2bcd47deb92bdf10ac907",
+            "path": "journeymap/config/5.7/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4793,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/2/-1,-1.png",
+            "MD5": "f3cb3bb3b8954a978854668b826a0bfa",
+            "path": "journeymap/data/mp/CCN/DIM-1/2/-1,-1.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3180,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/2/0,-1.png",
+            "MD5": "98ecef4a512c849378643ce7080ad399",
+            "path": "journeymap/data/mp/CCN/DIM-1/2/0,-1.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4673,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/3/-1,-1.png",
+            "MD5": "fb928bbcd4bf563bb81082abd091c819",
+            "path": "journeymap/data/mp/CCN/DIM-1/3/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1136,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/3/-1,0.png",
+            "MD5": "75093c1cc2c80b8eca1c079b85c762ac",
+            "path": "journeymap/data/mp/CCN/DIM-1/3/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5813,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/3/0,-1.png",
+            "MD5": "bfcccdfed86c03139cd43a0938d59c61",
+            "path": "journeymap/data/mp/CCN/DIM-1/3/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/3/0,0.png",
+            "MD5": "c4aaad8c6c52d02dbf33caf86e64a578",
+            "path": "journeymap/data/mp/CCN/DIM-1/3/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1212,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/4/-1,-1.png",
+            "MD5": "9be262a4872e2d312e9ec385e4344188",
+            "path": "journeymap/data/mp/CCN/DIM-1/4/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1271,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/4/-1,0.png",
+            "MD5": "af38406f77a637f6443e93bdb8cf3c44",
+            "path": "journeymap/data/mp/CCN/DIM-1/4/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1736,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/4/0,-1.png",
+            "MD5": "42cca451a8a785e53120b3173875eaa2",
+            "path": "journeymap/data/mp/CCN/DIM-1/4/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1389,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/4/0,0.png",
+            "MD5": "981d1e666a6c6d192d7aad9a1a6220f6",
+            "path": "journeymap/data/mp/CCN/DIM-1/4/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1874,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/topo/-1,-1.png",
+            "MD5": "44756b1ef21e14aafb04aa13680f94e4",
+            "path": "journeymap/data/mp/CCN/DIM-1/topo/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/topo/-1,0.png",
+            "MD5": "6f5f4e0a95022ace6db8eee4624f2c58",
+            "path": "journeymap/data/mp/CCN/DIM-1/topo/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1892,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/topo/0,-1.png",
+            "MD5": "9bb0e2cdcf4184a04d92787f0e8ae537",
+            "path": "journeymap/data/mp/CCN/DIM-1/topo/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1323,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM-1/topo/0,0.png",
+            "MD5": "bde849159007055551ce789ed000c03b",
+            "path": "journeymap/data/mp/CCN/DIM-1/topo/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1130,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/-1,-1.png",
+            "MD5": "0ddf09bae4836c7272435040ce124a09",
+            "path": "journeymap/data/mp/CCN/DIM0/0/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1222,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/-1,0.png",
+            "MD5": "9d742cb39f857745761cc8c0e592a62b",
+            "path": "journeymap/data/mp/CCN/DIM0/0/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1136,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/0,-1.png",
+            "MD5": "5ce156d697ed4d0996be8aa080ba41bd",
+            "path": "journeymap/data/mp/CCN/DIM0/0/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1233,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/0,0.png",
+            "MD5": "57841d3c02f719ea1782bf69ab132242",
+            "path": "journeymap/data/mp/CCN/DIM0/0/0,0.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 3067,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/6,-6.png",
+            "MD5": "87e1c6e3e0f62a4ad52331abf01b51e3",
+            "path": "journeymap/data/mp/CCN/DIM0/0/6,-6.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 9566,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/7,-6.png",
+            "MD5": "52676e2a5b06f7462fbde54fcd2c5e21",
+            "path": "journeymap/data/mp/CCN/DIM0/0/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 1466,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/0/7,-7.png",
+            "MD5": "198245856f6fe4f88637dd04d01a0421",
+            "path": "journeymap/data/mp/CCN/DIM0/0/7,-7.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1193,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/1/-1,-1.png",
+            "MD5": "4c2e172414f050412518816fd536924d",
+            "path": "journeymap/data/mp/CCN/DIM0/1/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 6053,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/1/-1,0.png",
+            "MD5": "a6eaf632c14855e1f2c6302398573a4f",
+            "path": "journeymap/data/mp/CCN/DIM0/1/-1,0.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 3752,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/1/6,-6.png",
+            "MD5": "9ff3a69a32dfb01301b50aaa56b4b6b0",
+            "path": "journeymap/data/mp/CCN/DIM0/1/6,-6.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 10550,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/1/7,-6.png",
+            "MD5": "26f35286a27be8b2d5ecbcd84d16bece",
+            "path": "journeymap/data/mp/CCN/DIM0/1/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 4430,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/1/7,-7.png",
+            "MD5": "fa6d4f2a69db16a99172bd06322205f7",
+            "path": "journeymap/data/mp/CCN/DIM0/1/7,-7.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 17190,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/10/-1,0.png",
+            "MD5": "7e4797c40078f6be50b9b03c58b618b9",
+            "path": "journeymap/data/mp/CCN/DIM0/10/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3812,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/10/0,-1.png",
+            "MD5": "e015e2f829a61be0e3197da33f0a895d",
+            "path": "journeymap/data/mp/CCN/DIM0/10/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 10490,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/10/0,0.png",
+            "MD5": "5585d5260abc6a302ad66a05a4dbc994",
+            "path": "journeymap/data/mp/CCN/DIM0/10/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2968,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/11/-1,-1.png",
+            "MD5": "75fffc379198a3fcc65d3ca41a9ad259",
+            "path": "journeymap/data/mp/CCN/DIM0/11/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2502,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/11/-1,0.png",
+            "MD5": "6cc41bd5ba7f59d61249f202efb93901",
+            "path": "journeymap/data/mp/CCN/DIM0/11/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2892,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/11/0,-1.png",
+            "MD5": "95fea34046f61891c05aa99f54e031fb",
+            "path": "journeymap/data/mp/CCN/DIM0/11/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3673,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/11/0,0.png",
+            "MD5": "c9cb5a949d4576c9b08e91f988ce5fc1",
+            "path": "journeymap/data/mp/CCN/DIM0/11/0,0.png"
+          }
+        },
+        {
+          "id": "-16,-26.png",
+          "name": "-16,-26.png",
+          "type": "File",
+          "artifact": {
+            "size": 1798,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/2/-16,-26.png",
+            "MD5": "5fa00b51f999413c7a474e33d870b63d",
+            "path": "journeymap/data/mp/CCN/DIM0/2/-16,-26.png"
+          }
+        },
+        {
+          "id": "10,1.png",
+          "name": "10,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2140,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/2/10,1.png",
+            "MD5": "43bcd1fb1fda0790164cae9dcf252e40",
+            "path": "journeymap/data/mp/CCN/DIM0/2/10,1.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 1227,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/2/6,-6.png",
+            "MD5": "2793a8c094d0f8f3c023cbb306eb1eda",
+            "path": "journeymap/data/mp/CCN/DIM0/2/6,-6.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 3938,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/2/7,-6.png",
+            "MD5": "b990662174b39d118aa19e7061d1ef13",
+            "path": "journeymap/data/mp/CCN/DIM0/2/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 3132,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/2/7,-7.png",
+            "MD5": "739f60b8147640633004d18502787e85",
+            "path": "journeymap/data/mp/CCN/DIM0/2/7,-7.png"
+          }
+        },
+        {
+          "id": "-3,3.png",
+          "name": "-3,3.png",
+          "type": "File",
+          "artifact": {
+            "size": 1218,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/3/-3,3.png",
+            "MD5": "e138e4fff7c4af42551cf6c8cbe3efde",
+            "path": "journeymap/data/mp/CCN/DIM0/3/-3,3.png"
+          }
+        },
+        {
+          "id": "-6,-4.png",
+          "name": "-6,-4.png",
+          "type": "File",
+          "artifact": {
+            "size": 3162,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/3/-6,-4.png",
+            "MD5": "018553d10a966194100d85c13c49319b",
+            "path": "journeymap/data/mp/CCN/DIM0/3/-6,-4.png"
+          }
+        },
+        {
+          "id": "10,1.png",
+          "name": "10,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5445,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/3/10,1.png",
+            "MD5": "cf07e271270f93008d11b1509f5fbfc9",
+            "path": "journeymap/data/mp/CCN/DIM0/3/10,1.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 7089,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/3/7,-6.png",
+            "MD5": "9d3b88ce6b0fe575ced3dd196d78cedc",
+            "path": "journeymap/data/mp/CCN/DIM0/3/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 11438,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/3/7,-7.png",
+            "MD5": "180f6c6669cea295274fd8e53850fffe",
+            "path": "journeymap/data/mp/CCN/DIM0/3/7,-7.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 4888,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/4/7,-6.png",
+            "MD5": "0e6b4af309605ba748212377ef164068",
+            "path": "journeymap/data/mp/CCN/DIM0/4/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 1939,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/4/7,-7.png",
+            "MD5": "67a5af72f485cb000d280ebf7f3be40f",
+            "path": "journeymap/data/mp/CCN/DIM0/4/7,-7.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 4546,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/5/7,-7.png",
+            "MD5": "96545919967f93f233f1717c73c87143",
+            "path": "journeymap/data/mp/CCN/DIM0/5/7,-7.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 5517,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/6/7,-7.png",
+            "MD5": "364bd074422b3723d53eb1a856a516cb",
+            "path": "journeymap/data/mp/CCN/DIM0/6/7,-7.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 1269,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/8/7,-6.png",
+            "MD5": "35d76b6aa01fe7907a87f1aeac5b53f2",
+            "path": "journeymap/data/mp/CCN/DIM0/8/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 1626,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/8/7,-7.png",
+            "MD5": "80bac4dfa0ef7e19ec99cac9102b6152",
+            "path": "journeymap/data/mp/CCN/DIM0/8/7,-7.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 6611,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/9/0,-1.png",
+            "MD5": "80a2312e82fd0db6f9ace4f96d48fe27",
+            "path": "journeymap/data/mp/CCN/DIM0/9/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1609,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/9/0,-2.png",
+            "MD5": "b6ee68a028538f1424266ead55612e26",
+            "path": "journeymap/data/mp/CCN/DIM0/9/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3752,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/9/0,0.png",
+            "MD5": "9b280218d4cc344500a5713e5e2bfd1d",
+            "path": "journeymap/data/mp/CCN/DIM0/9/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3251,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/9/1,-1.png",
+            "MD5": "d8bdddd25f6c3c787613e6c0b73d85d1",
+            "path": "journeymap/data/mp/CCN/DIM0/9/1,-1.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3140,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-1,-1.png",
+            "MD5": "6c5a86e6a8c0efaa3f778fa409bf58cb",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,-17.png",
+          "name": "-1,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 38604,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-1,-17.png",
+            "MD5": "5b4c75710cebc9b6784c73f9b9b54020",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-1,-17.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 27572,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-1,0.png",
+            "MD5": "5a4610d9e81e320fbc110437579c9615",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,5.png",
+          "name": "-1,5.png",
+          "type": "File",
+          "artifact": {
+            "size": 12039,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-1,5.png",
+            "MD5": "795c5927eaca7bb8b9c3e379c5b9b10f",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-1,5.png"
+          }
+        },
+        {
+          "id": "-11,-15.png",
+          "name": "-11,-15.png",
+          "type": "File",
+          "artifact": {
+            "size": 9336,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-11,-15.png",
+            "MD5": "5eb188aed3a61cfba011456f052e6ec8",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-11,-15.png"
+          }
+        },
+        {
+          "id": "-11,-16.png",
+          "name": "-11,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 134533,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-11,-16.png",
+            "MD5": "e4b298d3517cf5098e6e2929cbd90c55",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-11,-16.png"
+          }
+        },
+        {
+          "id": "-11,-17.png",
+          "name": "-11,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 71862,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-11,-17.png",
+            "MD5": "51a125ddce7342293749f2b4fabb0dd6",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-11,-17.png"
+          }
+        },
+        {
+          "id": "-12,-16.png",
+          "name": "-12,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 9965,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-12,-16.png",
+            "MD5": "96bc524b2ed6c502afc746af2f4fc533",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-12,-16.png"
+          }
+        },
+        {
+          "id": "-2,-17.png",
+          "name": "-2,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 15974,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-2,-17.png",
+            "MD5": "5c8aa35af78d756daf26560708119056",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-2,-17.png"
+          }
+        },
+        {
+          "id": "-3,3.png",
+          "name": "-3,3.png",
+          "type": "File",
+          "artifact": {
+            "size": 34941,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-3,3.png",
+            "MD5": "f85fce3a6505a5d2e00c8783d9da62c6",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-3,3.png"
+          }
+        },
+        {
+          "id": "-5,8.png",
+          "name": "-5,8.png",
+          "type": "File",
+          "artifact": {
+            "size": 28211,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-5,8.png",
+            "MD5": "5fb15205cf5937f287cd382f192b5de1",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-5,8.png"
+          }
+        },
+        {
+          "id": "-6,-10.png",
+          "name": "-6,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 7738,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-6,-10.png",
+            "MD5": "c1853b5234a5fd76c01d056aee1ce7ba",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-6,-10.png"
+          }
+        },
+        {
+          "id": "-6,-4.png",
+          "name": "-6,-4.png",
+          "type": "File",
+          "artifact": {
+            "size": 29626,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-6,-4.png",
+            "MD5": "70d82e3853221c7722b547f47934d43d",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-6,-4.png"
+          }
+        },
+        {
+          "id": "-7,-10.png",
+          "name": "-7,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 9886,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-7,-10.png",
+            "MD5": "61a2212a157e0eee00c5b3eb31d2f211",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-7,-10.png"
+          }
+        },
+        {
+          "id": "-9,-15.png",
+          "name": "-9,-15.png",
+          "type": "File",
+          "artifact": {
+            "size": 82215,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/-9,-15.png",
+            "MD5": "52dcafb5cadd36e989cf8ad27657ac4e",
+            "path": "journeymap/data/mp/CCN/DIM0/day/-9,-15.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 13008,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/0,-1.png",
+            "MD5": "91779c0f170cccc6f4afd08956407072",
+            "path": "journeymap/data/mp/CCN/DIM0/day/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 3242,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/0,-2.png",
+            "MD5": "dafc985b27f21500ece87f679e045ea5",
+            "path": "journeymap/data/mp/CCN/DIM0/day/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 31633,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/0,0.png",
+            "MD5": "53b9e5c0f1b3aebc69f04beaeb3e4c62",
+            "path": "journeymap/data/mp/CCN/DIM0/day/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8162,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/1,-1.png",
+            "MD5": "f6fbc8e8f20659e6157087c5c0916d88",
+            "path": "journeymap/data/mp/CCN/DIM0/day/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1817,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/1,-2.png",
+            "MD5": "5163f3f47c0bab53590807ea9bd201a3",
+            "path": "journeymap/data/mp/CCN/DIM0/day/1,-2.png"
+          }
+        },
+        {
+          "id": "10,-8.png",
+          "name": "10,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 30220,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/10,-8.png",
+            "MD5": "f848de8b98c39a5a0a4d80bc6fb06298",
+            "path": "journeymap/data/mp/CCN/DIM0/day/10,-8.png"
+          }
+        },
+        {
+          "id": "10,1.png",
+          "name": "10,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 80403,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/10,1.png",
+            "MD5": "e819540a75438066e6ca6fc755c643f4",
+            "path": "journeymap/data/mp/CCN/DIM0/day/10,1.png"
+          }
+        },
+        {
+          "id": "13,11.png",
+          "name": "13,11.png",
+          "type": "File",
+          "artifact": {
+            "size": 3303,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/13,11.png",
+            "MD5": "8e183daa950201749b6244a5be0dc1a3",
+            "path": "journeymap/data/mp/CCN/DIM0/day/13,11.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 35114,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/6,-6.png",
+            "MD5": "4abc308b5217d5e950a740bcd824b429",
+            "path": "journeymap/data/mp/CCN/DIM0/day/6,-6.png"
+          }
+        },
+        {
+          "id": "6,-7.png",
+          "name": "6,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 12533,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/6,-7.png",
+            "MD5": "5792aa80b8538037ef27640afd17b563",
+            "path": "journeymap/data/mp/CCN/DIM0/day/6,-7.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 61495,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/7,-6.png",
+            "MD5": "363aafe86cecbd7373e89a97df73b978",
+            "path": "journeymap/data/mp/CCN/DIM0/day/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 39805,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/7,-7.png",
+            "MD5": "9ee1e7c0f2a05e8f1d35965d147baefa",
+            "path": "journeymap/data/mp/CCN/DIM0/day/7,-7.png"
+          }
+        },
+        {
+          "id": "8,-3.png",
+          "name": "8,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 24720,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/8,-3.png",
+            "MD5": "312686df420076dbdf2b7c38404d99e1",
+            "path": "journeymap/data/mp/CCN/DIM0/day/8,-3.png"
+          }
+        },
+        {
+          "id": "8,-8.png",
+          "name": "8,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 6081,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/8,-8.png",
+            "MD5": "52998ab3e8993bb7477b9552eb9d1de0",
+            "path": "journeymap/data/mp/CCN/DIM0/day/8,-8.png"
+          }
+        },
+        {
+          "id": "9,-3.png",
+          "name": "9,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 22386,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/9,-3.png",
+            "MD5": "432c6bbe6f1c187f38361ba436e3bb6f",
+            "path": "journeymap/data/mp/CCN/DIM0/day/9,-3.png"
+          }
+        },
+        {
+          "id": "9,-7.png",
+          "name": "9,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 2796,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/9,-7.png",
+            "MD5": "44b5564e6262e4ee761d7ed5b7de8406",
+            "path": "journeymap/data/mp/CCN/DIM0/day/9,-7.png"
+          }
+        },
+        {
+          "id": "9,-8.png",
+          "name": "9,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 21613,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/9,-8.png",
+            "MD5": "6bf8c45414d93d5cd4a9bc65ce9595d0",
+            "path": "journeymap/data/mp/CCN/DIM0/day/9,-8.png"
+          }
+        },
+        {
+          "id": "9,1.png",
+          "name": "9,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 16653,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/day/9,1.png",
+            "MD5": "71e05a4af5ca0a6e3817b2f16db54ae1",
+            "path": "journeymap/data/mp/CCN/DIM0/day/9,1.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2926,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-1,-1.png",
+            "MD5": "4ab6af14aaba6106269112d2146ce1bd",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,-17.png",
+          "name": "-1,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 31462,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-1,-17.png",
+            "MD5": "2f184664fa9fd959cccda6a889efef1b",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-1,-17.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 27624,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-1,0.png",
+            "MD5": "071c24469792a4668e0aa1fe8018a1c0",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,5.png",
+          "name": "-1,5.png",
+          "type": "File",
+          "artifact": {
+            "size": 11005,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-1,5.png",
+            "MD5": "5411ea793492fe5d51bf18e27cc0bac4",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-1,5.png"
+          }
+        },
+        {
+          "id": "-11,-16.png",
+          "name": "-11,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 92901,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-11,-16.png",
+            "MD5": "27d0fe504e57147b47974e3196bc43ed",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-11,-16.png"
+          }
+        },
+        {
+          "id": "-11,-17.png",
+          "name": "-11,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 52508,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-11,-17.png",
+            "MD5": "1201ae40605bcf9a94e34d54d677195e",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-11,-17.png"
+          }
+        },
+        {
+          "id": "-12,-16.png",
+          "name": "-12,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 7095,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-12,-16.png",
+            "MD5": "cca0674275fcbb65829408c6a5ffc20e",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-12,-16.png"
+          }
+        },
+        {
+          "id": "-2,-17.png",
+          "name": "-2,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 12297,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-2,-17.png",
+            "MD5": "33d311e5a3cad4b5092c8850b68ee973",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-2,-17.png"
+          }
+        },
+        {
+          "id": "-3,3.png",
+          "name": "-3,3.png",
+          "type": "File",
+          "artifact": {
+            "size": 25064,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-3,3.png",
+            "MD5": "a4304e42cfef407e1fcebfdc9d618776",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-3,3.png"
+          }
+        },
+        {
+          "id": "-5,8.png",
+          "name": "-5,8.png",
+          "type": "File",
+          "artifact": {
+            "size": 23087,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-5,8.png",
+            "MD5": "f47c2522e6759a88b3b1fa8aa7180c5d",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-5,8.png"
+          }
+        },
+        {
+          "id": "-6,-10.png",
+          "name": "-6,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 7941,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-6,-10.png",
+            "MD5": "5720bb1dfae8185fb1ada8e22087206b",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-6,-10.png"
+          }
+        },
+        {
+          "id": "-6,-4.png",
+          "name": "-6,-4.png",
+          "type": "File",
+          "artifact": {
+            "size": 26241,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-6,-4.png",
+            "MD5": "226614c942aac401b36c930dad4e1573",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-6,-4.png"
+          }
+        },
+        {
+          "id": "-7,-10.png",
+          "name": "-7,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 10148,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-7,-10.png",
+            "MD5": "3d34731769f9c67852b41bb13ced5622",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-7,-10.png"
+          }
+        },
+        {
+          "id": "-9,-15.png",
+          "name": "-9,-15.png",
+          "type": "File",
+          "artifact": {
+            "size": 58303,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/-9,-15.png",
+            "MD5": "881693b3e1a005485348b317f6866efd",
+            "path": "journeymap/data/mp/CCN/DIM0/night/-9,-15.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 12150,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/0,-1.png",
+            "MD5": "f5d48656472b2558939720e91c338f42",
+            "path": "journeymap/data/mp/CCN/DIM0/night/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 3113,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/0,-2.png",
+            "MD5": "d980549f00b5d2328473d61664dcf4fc",
+            "path": "journeymap/data/mp/CCN/DIM0/night/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 36782,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/0,0.png",
+            "MD5": "f478f6e257125df53bffebbbd0eab7e2",
+            "path": "journeymap/data/mp/CCN/DIM0/night/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8705,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/1,-1.png",
+            "MD5": "2e8a8174e73edf388c38a0dbdececd38",
+            "path": "journeymap/data/mp/CCN/DIM0/night/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1776,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/1,-2.png",
+            "MD5": "cffcd7a145a0d76300fc019678376edd",
+            "path": "journeymap/data/mp/CCN/DIM0/night/1,-2.png"
+          }
+        },
+        {
+          "id": "10,-8.png",
+          "name": "10,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 31071,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/10,-8.png",
+            "MD5": "cd11e7be4ea302c2d6e9b15b0ddd7d65",
+            "path": "journeymap/data/mp/CCN/DIM0/night/10,-8.png"
+          }
+        },
+        {
+          "id": "10,1.png",
+          "name": "10,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 62459,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/10,1.png",
+            "MD5": "f46407ff7c57f4ca1e5e28f38ca82cf6",
+            "path": "journeymap/data/mp/CCN/DIM0/night/10,1.png"
+          }
+        },
+        {
+          "id": "13,11.png",
+          "name": "13,11.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/13,11.png",
+            "MD5": "143e132fb296c6fdbf8ff504cf959284",
+            "path": "journeymap/data/mp/CCN/DIM0/night/13,11.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 24341,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/6,-6.png",
+            "MD5": "1f0f4b73e7b72e46dc4661bbc700b0f6",
+            "path": "journeymap/data/mp/CCN/DIM0/night/6,-6.png"
+          }
+        },
+        {
+          "id": "6,-7.png",
+          "name": "6,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 7577,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/6,-7.png",
+            "MD5": "08c8cf3dc658223569d8736e5c45d362",
+            "path": "journeymap/data/mp/CCN/DIM0/night/6,-7.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 51164,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/7,-6.png",
+            "MD5": "858ab53f3d94c810dc08a92f15ae9b74",
+            "path": "journeymap/data/mp/CCN/DIM0/night/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 32367,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/7,-7.png",
+            "MD5": "48f93703cd411b281c5c8a59c90f750d",
+            "path": "journeymap/data/mp/CCN/DIM0/night/7,-7.png"
+          }
+        },
+        {
+          "id": "8,-3.png",
+          "name": "8,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 19706,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/8,-3.png",
+            "MD5": "881dd50811abf9738d64ff64f9bf8655",
+            "path": "journeymap/data/mp/CCN/DIM0/night/8,-3.png"
+          }
+        },
+        {
+          "id": "8,-8.png",
+          "name": "8,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 4586,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/8,-8.png",
+            "MD5": "3d145aecf4480fc3a6a6f325f8e12746",
+            "path": "journeymap/data/mp/CCN/DIM0/night/8,-8.png"
+          }
+        },
+        {
+          "id": "9,-3.png",
+          "name": "9,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 18498,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/9,-3.png",
+            "MD5": "decdf5f295404f1fbe3d4d5abd12b5c4",
+            "path": "journeymap/data/mp/CCN/DIM0/night/9,-3.png"
+          }
+        },
+        {
+          "id": "9,-7.png",
+          "name": "9,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 2409,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/9,-7.png",
+            "MD5": "c620d110c49a16ed5a819be5ed08085a",
+            "path": "journeymap/data/mp/CCN/DIM0/night/9,-7.png"
+          }
+        },
+        {
+          "id": "9,-8.png",
+          "name": "9,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 18969,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/9,-8.png",
+            "MD5": "33a6578ee3cf8e201e05ddc3f2cba3b5",
+            "path": "journeymap/data/mp/CCN/DIM0/night/9,-8.png"
+          }
+        },
+        {
+          "id": "9,1.png",
+          "name": "9,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 13204,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/night/9,1.png",
+            "MD5": "7750d313ae0925e3adb13b964beb7c1a",
+            "path": "journeymap/data/mp/CCN/DIM0/night/9,1.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3582,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-1,-1.png",
+            "MD5": "6e99a68ba17a746f2954b76bdd685569",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,-17.png",
+          "name": "-1,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 11453,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-1,-17.png",
+            "MD5": "6e07bbd270016aceb40306daf4b130ac",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-1,-17.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 14021,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-1,0.png",
+            "MD5": "a00a1471bfe82f728872c0d43ffea48a",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,5.png",
+          "name": "-1,5.png",
+          "type": "File",
+          "artifact": {
+            "size": 5442,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-1,5.png",
+            "MD5": "ec2894403a5c955bdf0105824660edc2",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-1,5.png"
+          }
+        },
+        {
+          "id": "-11,-15.png",
+          "name": "-11,-15.png",
+          "type": "File",
+          "artifact": {
+            "size": 2580,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-11,-15.png",
+            "MD5": "9acd8c89d91ddb42cd988a53e9d3905a",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-11,-15.png"
+          }
+        },
+        {
+          "id": "-11,-16.png",
+          "name": "-11,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 30829,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-11,-16.png",
+            "MD5": "c6f6c59955fb9f27aa78f8f3c13dcb96",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-11,-16.png"
+          }
+        },
+        {
+          "id": "-11,-17.png",
+          "name": "-11,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 17285,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-11,-17.png",
+            "MD5": "8445ea93cac1720dee7534cfae8a3200",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-11,-17.png"
+          }
+        },
+        {
+          "id": "-12,-16.png",
+          "name": "-12,-16.png",
+          "type": "File",
+          "artifact": {
+            "size": 2894,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-12,-16.png",
+            "MD5": "61d1a927648e428942b7b6154a9ac3eb",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-12,-16.png"
+          }
+        },
+        {
+          "id": "-16,-26.png",
+          "name": "-16,-26.png",
+          "type": "File",
+          "artifact": {
+            "size": 5170,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-16,-26.png",
+            "MD5": "e0c708e69adb985a6e212da4f9265a6c",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-16,-26.png"
+          }
+        },
+        {
+          "id": "-17,-26.png",
+          "name": "-17,-26.png",
+          "type": "File",
+          "artifact": {
+            "size": 1615,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-17,-26.png",
+            "MD5": "142fb0efd04dcc1a36290c33f0ec0f9a",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-17,-26.png"
+          }
+        },
+        {
+          "id": "-2,-1.png",
+          "name": "-2,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1134,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-2,-1.png",
+            "MD5": "cbf53399d9684093fa9f967a136af5f1",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-2,-1.png"
+          }
+        },
+        {
+          "id": "-2,-17.png",
+          "name": "-2,-17.png",
+          "type": "File",
+          "artifact": {
+            "size": 5670,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-2,-17.png",
+            "MD5": "987bf74c037038ad33d3ca9d91287de4",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-2,-17.png"
+          }
+        },
+        {
+          "id": "-2,0.png",
+          "name": "-2,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2021,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-2,0.png",
+            "MD5": "bc85dca8d675c948467e23fccd51caf3",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-2,0.png"
+          }
+        },
+        {
+          "id": "-3,3.png",
+          "name": "-3,3.png",
+          "type": "File",
+          "artifact": {
+            "size": 8289,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-3,3.png",
+            "MD5": "aa0265ef92112801beebbf4140ef0a39",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-3,3.png"
+          }
+        },
+        {
+          "id": "-5,8.png",
+          "name": "-5,8.png",
+          "type": "File",
+          "artifact": {
+            "size": 8235,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-5,8.png",
+            "MD5": "089ae15d2e6aacaef7d55a532d497025",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-5,8.png"
+          }
+        },
+        {
+          "id": "-6,-10.png",
+          "name": "-6,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 4150,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-6,-10.png",
+            "MD5": "22d66c882887575e64422a9389956196",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-6,-10.png"
+          }
+        },
+        {
+          "id": "-6,-4.png",
+          "name": "-6,-4.png",
+          "type": "File",
+          "artifact": {
+            "size": 8784,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-6,-4.png",
+            "MD5": "77d1dd74c4b939a2e077670fd089afd9",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-6,-4.png"
+          }
+        },
+        {
+          "id": "-7,-10.png",
+          "name": "-7,-10.png",
+          "type": "File",
+          "artifact": {
+            "size": 4812,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-7,-10.png",
+            "MD5": "613a41361367d67a4bef1a1fa2c95a73",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-7,-10.png"
+          }
+        },
+        {
+          "id": "-9,-15.png",
+          "name": "-9,-15.png",
+          "type": "File",
+          "artifact": {
+            "size": 19027,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/-9,-15.png",
+            "MD5": "feb4301b69eee33ee926e4039ba0e77b",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/-9,-15.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5944,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/0,-1.png",
+            "MD5": "7b1994370302eb6cbfc8e952fd451c6f",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 3808,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/0,-2.png",
+            "MD5": "5a954f16661289774a14869e38e1002a",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 8581,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/0,0.png",
+            "MD5": "e56d095dc84189e87a6f64249cdce8cc",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4653,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/1,-1.png",
+            "MD5": "e0b87885fed55d5365c6c657fac994e7",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2073,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/1,-2.png",
+            "MD5": "5ec6002e3c62b5d846c3d5c79af9b6d5",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/1,-2.png"
+          }
+        },
+        {
+          "id": "10,-8.png",
+          "name": "10,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 9024,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/10,-8.png",
+            "MD5": "3d5ecfc386c65a86f05236b1227accd9",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/10,-8.png"
+          }
+        },
+        {
+          "id": "10,1.png",
+          "name": "10,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 20546,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/10,1.png",
+            "MD5": "5eb4870de69dbf43ff23b6054b50176e",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/10,1.png"
+          }
+        },
+        {
+          "id": "13,11.png",
+          "name": "13,11.png",
+          "type": "File",
+          "artifact": {
+            "size": 1756,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/13,11.png",
+            "MD5": "75c98595ff632ce1d9efe164bee3eda9",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/13,11.png"
+          }
+        },
+        {
+          "id": "6,-6.png",
+          "name": "6,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 13535,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/6,-6.png",
+            "MD5": "11604028db6d27964305a5eb6c2dd22d",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/6,-6.png"
+          }
+        },
+        {
+          "id": "6,-7.png",
+          "name": "6,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 5589,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/6,-7.png",
+            "MD5": "d143e5f17a2e292b4dbfc024dfd60f0e",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/6,-7.png"
+          }
+        },
+        {
+          "id": "7,-6.png",
+          "name": "7,-6.png",
+          "type": "File",
+          "artifact": {
+            "size": 19645,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/7,-6.png",
+            "MD5": "5f39e5b5fd5d61db3e54c00fe7ffa5d0",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/7,-6.png"
+          }
+        },
+        {
+          "id": "7,-7.png",
+          "name": "7,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 12706,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/7,-7.png",
+            "MD5": "4fe8c2659e637fa884d299449477b792",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/7,-7.png"
+          }
+        },
+        {
+          "id": "8,-3.png",
+          "name": "8,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 7605,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/8,-3.png",
+            "MD5": "e92b6b438186f6be494ac02db2f726ca",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/8,-3.png"
+          }
+        },
+        {
+          "id": "8,-8.png",
+          "name": "8,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 2266,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/8,-8.png",
+            "MD5": "c34f37fdb6805ab43a9c30134a7f86ba",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/8,-8.png"
+          }
+        },
+        {
+          "id": "9,-3.png",
+          "name": "9,-3.png",
+          "type": "File",
+          "artifact": {
+            "size": 6903,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/9,-3.png",
+            "MD5": "6acfb8ce19105cf8cd6f1f689b8f1eaa",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/9,-3.png"
+          }
+        },
+        {
+          "id": "9,-7.png",
+          "name": "9,-7.png",
+          "type": "File",
+          "artifact": {
+            "size": 1457,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/9,-7.png",
+            "MD5": "48d5b19fd85a87513d736fd4c431b13d",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/9,-7.png"
+          }
+        },
+        {
+          "id": "9,-8.png",
+          "name": "9,-8.png",
+          "type": "File",
+          "artifact": {
+            "size": 6695,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/9,-8.png",
+            "MD5": "207dddcc2300c0603984e349d8b51909",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/9,-8.png"
+          }
+        },
+        {
+          "id": "9,1.png",
+          "name": "9,1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4662,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM0/topo/9,1.png",
+            "MD5": "ecf033a5b5d77356938e6cc3bf30f8e1",
+            "path": "journeymap/data/mp/CCN/DIM0/topo/9,1.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1253,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/3/0,-1.png",
+            "MD5": "53c08216273a1ee4d6c63c90dfa61eb1",
+            "path": "journeymap/data/mp/CCN/DIM1/3/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1326,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/3/0,0.png",
+            "MD5": "245be66ebb215c57a9850aeb2c6c8085",
+            "path": "journeymap/data/mp/CCN/DIM1/3/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1786,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/day/-1,-1.png",
+            "MD5": "e28e09ef9b74a22bc04e61392f7f57dd",
+            "path": "journeymap/data/mp/CCN/DIM1/day/-1,-1.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 6965,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/day/0,-1.png",
+            "MD5": "4175ff1e52c2f591ab0a4912c2022811",
+            "path": "journeymap/data/mp/CCN/DIM1/day/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3714,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/day/0,0.png",
+            "MD5": "34dfa278f2aeb35188649d2540e3fd8a",
+            "path": "journeymap/data/mp/CCN/DIM1/day/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1786,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/night/-1,-1.png",
+            "MD5": "e28e09ef9b74a22bc04e61392f7f57dd",
+            "path": "journeymap/data/mp/CCN/DIM1/night/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1250,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/night/-1,0.png",
+            "MD5": "418eab914a03cfb19e4c74c41cb254ee",
+            "path": "journeymap/data/mp/CCN/DIM1/night/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 6965,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/night/0,-1.png",
+            "MD5": "4175ff1e52c2f591ab0a4912c2022811",
+            "path": "journeymap/data/mp/CCN/DIM1/night/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3714,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/night/0,0.png",
+            "MD5": "34dfa278f2aeb35188649d2540e3fd8a",
+            "path": "journeymap/data/mp/CCN/DIM1/night/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1370,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/topo/-1,-1.png",
+            "MD5": "1e5dc37f950955c37d21b91683e61850",
+            "path": "journeymap/data/mp/CCN/DIM1/topo/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1192,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/topo/-1,0.png",
+            "MD5": "d0c9a2b882ba1ee9c71068814e648a84",
+            "path": "journeymap/data/mp/CCN/DIM1/topo/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3357,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/topo/0,-1.png",
+            "MD5": "bdaaf57a17d2ae45fd6351a3b61a0e54",
+            "path": "journeymap/data/mp/CCN/DIM1/topo/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1992,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM1/topo/0,0.png",
+            "MD5": "6c78dcaca97f4591b28212d370a4dc84",
+            "path": "journeymap/data/mp/CCN/DIM1/topo/0,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2889,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/0/-1,0.png",
+            "MD5": "88451d98f6a9cc4251212190f095fe3d",
+            "path": "journeymap/data/mp/CCN/DIM2/0/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1193,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/1/-1,-1.png",
+            "MD5": "4c2e172414f050412518816fd536924d",
+            "path": "journeymap/data/mp/CCN/DIM2/1/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 6053,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/1/-1,0.png",
+            "MD5": "814cf888652639d9c4aeb8e28477be56",
+            "path": "journeymap/data/mp/CCN/DIM2/1/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 16069,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/10/-1,0.png",
+            "MD5": "ca44a756ca4fd851c23b4781d510cdea",
+            "path": "journeymap/data/mp/CCN/DIM2/10/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3349,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/10/0,-1.png",
+            "MD5": "2c32ba2cd2bced986ffd17881ad5afbe",
+            "path": "journeymap/data/mp/CCN/DIM2/10/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 12172,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/10/0,0.png",
+            "MD5": "6a610abb6e3f1c7497ae1cc956326e37",
+            "path": "journeymap/data/mp/CCN/DIM2/10/0,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 11988,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/11/-1,0.png",
+            "MD5": "db9d9bea80b1e204bd148f0bd2c88a58",
+            "path": "journeymap/data/mp/CCN/DIM2/11/-1,0.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 9674,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/11/0,0.png",
+            "MD5": "71e836c49e85a6bdf9b2253c67bfd303",
+            "path": "journeymap/data/mp/CCN/DIM2/11/0,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2675,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/2/-1,0.png",
+            "MD5": "709e9fe2ac666129e2edd2e371a1f88e",
+            "path": "journeymap/data/mp/CCN/DIM2/2/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2949,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/3/-1,0.png",
+            "MD5": "e4d5ef1570f50447e99a7c3a175689fa",
+            "path": "journeymap/data/mp/CCN/DIM2/3/-1,0.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 5773,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/4/-1,0.png",
+            "MD5": "ca8799cc8962e46f1cc8c6e444fd4a02",
+            "path": "journeymap/data/mp/CCN/DIM2/4/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 6777,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/9/0,-1.png",
+            "MD5": "a4d0112eaa8b48d4eb06f68fd8336998",
+            "path": "journeymap/data/mp/CCN/DIM2/9/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1550,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/9/0,-2.png",
+            "MD5": "827b4205205b5b965d3bd3c1d87e0837",
+            "path": "journeymap/data/mp/CCN/DIM2/9/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3999,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/9/0,0.png",
+            "MD5": "6ff56457bbea6e2a2b0f6ddd1f1aaadc",
+            "path": "journeymap/data/mp/CCN/DIM2/9/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2942,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/9/1,-1.png",
+            "MD5": "aed67e38a42dab6f381d7263511e86e3",
+            "path": "journeymap/data/mp/CCN/DIM2/9/1,-1.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3709,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/-1,-1.png",
+            "MD5": "49f97ddf82905cfbfe6a39e28ae15650",
+            "path": "journeymap/data/mp/CCN/DIM2/day/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 60050,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/-1,0.png",
+            "MD5": "24791173487d95adce2c041af47d82f3",
+            "path": "journeymap/data/mp/CCN/DIM2/day/-1,0.png"
+          }
+        },
+        {
+          "id": "-2,0.png",
+          "name": "-2,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1391,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/-2,0.png",
+            "MD5": "a25951059d0714be2359eb38aa70a8f1",
+            "path": "journeymap/data/mp/CCN/DIM2/day/-2,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8546,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/0,-1.png",
+            "MD5": "850c770baef03ade45b0be519bd21b61",
+            "path": "journeymap/data/mp/CCN/DIM2/day/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2497,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/0,-2.png",
+            "MD5": "c98121a9f7fd86ba5cee1e6fd17ad467",
+            "path": "journeymap/data/mp/CCN/DIM2/day/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 44776,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/0,0.png",
+            "MD5": "f507ea658e324fb3d793f3132126189d",
+            "path": "journeymap/data/mp/CCN/DIM2/day/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8036,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/1,-1.png",
+            "MD5": "b97e45fcf371dd6db1f80d942e6e5562",
+            "path": "journeymap/data/mp/CCN/DIM2/day/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1817,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/day/1,-2.png",
+            "MD5": "5163f3f47c0bab53590807ea9bd201a3",
+            "path": "journeymap/data/mp/CCN/DIM2/day/1,-2.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3326,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/-1,-1.png",
+            "MD5": "60d2e24ceb2ee6ffdd1d739d6fe8cc9a",
+            "path": "journeymap/data/mp/CCN/DIM2/night/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 57091,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/-1,0.png",
+            "MD5": "576dce7445b2c077c2340b9a9efec53b",
+            "path": "journeymap/data/mp/CCN/DIM2/night/-1,0.png"
+          }
+        },
+        {
+          "id": "-2,0.png",
+          "name": "-2,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1355,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/-2,0.png",
+            "MD5": "3dab585828716b1beb43476f0a333a7e",
+            "path": "journeymap/data/mp/CCN/DIM2/night/-2,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8122,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/0,-1.png",
+            "MD5": "804b4c71ecc3b95a362314ae271668fd",
+            "path": "journeymap/data/mp/CCN/DIM2/night/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2364,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/0,-2.png",
+            "MD5": "4360e6ad232261f6c4b077897b17ce13",
+            "path": "journeymap/data/mp/CCN/DIM2/night/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 45119,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/0,0.png",
+            "MD5": "f8da72d0f99ec5e44c871d28d44cd607",
+            "path": "journeymap/data/mp/CCN/DIM2/night/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 8604,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/1,-1.png",
+            "MD5": "ce8cfbdbd5fce77348f1066866eb0e41",
+            "path": "journeymap/data/mp/CCN/DIM2/night/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1776,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/night/1,-2.png",
+            "MD5": "cffcd7a145a0d76300fc019678376edd",
+            "path": "journeymap/data/mp/CCN/DIM2/night/1,-2.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2640,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/-1,-1.png",
+            "MD5": "cfe7fe0f90d54f5d363919047488d49d",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 16858,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/-1,0.png",
+            "MD5": "3016631a35df2b5963d32c2c1fc2d172",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/-1,0.png"
+          }
+        },
+        {
+          "id": "-2,0.png",
+          "name": "-2,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1990,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/-2,0.png",
+            "MD5": "8afa6ee9426c66f9c5b3e0ff766c62b7",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/-2,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4322,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/0,-1.png",
+            "MD5": "0496fca58a3c3706e9a4f0940470318f",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/0,-1.png"
+          }
+        },
+        {
+          "id": "0,-2.png",
+          "name": "0,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2363,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/0,-2.png",
+            "MD5": "8d898ad6d49ee4e3257ca9f3af014060",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/0,-2.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 12630,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/0,0.png",
+            "MD5": "7000345ad0d37f0cd0f688290ffb1ff3",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/0,0.png"
+          }
+        },
+        {
+          "id": "1,-1.png",
+          "name": "1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3612,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/1,-1.png",
+            "MD5": "e71c428f99d198b6bce98c01d2652e28",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/1,-1.png"
+          }
+        },
+        {
+          "id": "1,-2.png",
+          "name": "1,-2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1523,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM2/topo/1,-2.png",
+            "MD5": "2fb0182ea0eed4b84e909c53ff2cc86c",
+            "path": "journeymap/data/mp/CCN/DIM2/topo/1,-2.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1130,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/0/-1,-1.png",
+            "MD5": "0ddf09bae4836c7272435040ce124a09",
+            "path": "journeymap/data/mp/CCN/DIM72/0/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1157,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/0/-1,0.png",
+            "MD5": "bac4447579a6e6dde97af3c4abe4ba66",
+            "path": "journeymap/data/mp/CCN/DIM72/0/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1136,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/0/0,-1.png",
+            "MD5": "5ce156d697ed4d0996be8aa080ba41bd",
+            "path": "journeymap/data/mp/CCN/DIM72/0/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1171,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/0/0,0.png",
+            "MD5": "e9e84af193e16b68019966ef1dfc674e",
+            "path": "journeymap/data/mp/CCN/DIM72/0/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1314,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/4/-1,-1.png",
+            "MD5": "e4ed61789e3f55c2048c76f3a770ae84",
+            "path": "journeymap/data/mp/CCN/DIM72/4/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1782,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/4/-1,0.png",
+            "MD5": "ef32adb0dc29046be2d16ec208bf99c4",
+            "path": "journeymap/data/mp/CCN/DIM72/4/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1177,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/4/0,-1.png",
+            "MD5": "b0f61a9f97ecdfe4fc2721551a4187db",
+            "path": "journeymap/data/mp/CCN/DIM72/4/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1343,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/4/0,0.png",
+            "MD5": "04c372ae9c9a78a33ae7fd3b4a5977dc",
+            "path": "journeymap/data/mp/CCN/DIM72/4/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5374,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/day/-1,-1.png",
+            "MD5": "a5c02103c0225b608654b9bcc69446d4",
+            "path": "journeymap/data/mp/CCN/DIM72/day/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 7467,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/day/-1,0.png",
+            "MD5": "b384a00b23ecbe0b5b7bd8610b131f5c",
+            "path": "journeymap/data/mp/CCN/DIM72/day/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5764,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/day/0,-1.png",
+            "MD5": "391613836aafa171540527a93207ec71",
+            "path": "journeymap/data/mp/CCN/DIM72/day/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 8258,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/day/0,0.png",
+            "MD5": "ffe820ca81fb49f6658d8829ed3b9faf",
+            "path": "journeymap/data/mp/CCN/DIM72/day/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5374,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/night/-1,-1.png",
+            "MD5": "a5c02103c0225b608654b9bcc69446d4",
+            "path": "journeymap/data/mp/CCN/DIM72/night/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 7467,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/night/-1,0.png",
+            "MD5": "b384a00b23ecbe0b5b7bd8610b131f5c",
+            "path": "journeymap/data/mp/CCN/DIM72/night/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5764,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/night/0,-1.png",
+            "MD5": "391613836aafa171540527a93207ec71",
+            "path": "journeymap/data/mp/CCN/DIM72/night/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 8258,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/night/0,0.png",
+            "MD5": "ffe820ca81fb49f6658d8829ed3b9faf",
+            "path": "journeymap/data/mp/CCN/DIM72/night/0,0.png"
+          }
+        },
+        {
+          "id": "-1,-1.png",
+          "name": "-1,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2594,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/topo/-1,-1.png",
+            "MD5": "380f31aa6c4fc7a7675a7bf8a3c57cb5",
+            "path": "journeymap/data/mp/CCN/DIM72/topo/-1,-1.png"
+          }
+        },
+        {
+          "id": "-1,0.png",
+          "name": "-1,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2675,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/topo/-1,0.png",
+            "MD5": "7d702bf5926fba18fdfceea601f3923f",
+            "path": "journeymap/data/mp/CCN/DIM72/topo/-1,0.png"
+          }
+        },
+        {
+          "id": "0,-1.png",
+          "name": "0,-1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2212,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/topo/0,-1.png",
+            "MD5": "c0aa9eed7f07fc951aaac44690e381d9",
+            "path": "journeymap/data/mp/CCN/DIM72/topo/0,-1.png"
+          }
+        },
+        {
+          "id": "0,0.png",
+          "name": "0,0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2966,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/data/mp/CCN/DIM72/topo/0,0.png",
+            "MD5": "a26e924d6d452c65f7893a9cb038ec9f",
+            "path": "journeymap/data/mp/CCN/DIM72/topo/0,0.png"
+          }
+        },
+        {
+          "id": "default.theme.config",
+          "name": "default.theme.config",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/default.theme.config",
+            "MD5": "9a651dda4758f8a349cc4017f2d60da6",
+            "path": "journeymap/icon/theme/default.theme.config"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_off.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_on.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+            "MD5": "f746c00ea1178ba9768a024dd79972ec",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
+            "MD5": "32333489c3af7acb084fc7d2e1d6b835",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "DesertTemple.theme2.json",
+          "name": "DesertTemple.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8925,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
+            "MD5": "ef97d6d4a3c3a745a5a819f81617a3a4",
+            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
+          }
+        },
+        {
+          "id": "EndCity.theme2.json",
+          "name": "EndCity.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8920,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/EndCity.theme2.json",
+            "MD5": "8bd570528afe51dad02dcd97eaa16098",
+            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
+          }
+        },
+        {
+          "id": "ForestMansion.theme2.json",
+          "name": "ForestMansion.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
+            "MD5": "c0fb578a459a623baf538026edd27422",
+            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/about.png",
+            "MD5": "51dd21a90b121e6ee54629d7aa06bbe0",
+            "path": "journeymap/icon/theme/flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1371,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/actions.png",
+            "MD5": "0ef11997aba83ffb45df8ef8fa5a7aac",
+            "path": "journeymap/icon/theme/flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 1101,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/alert.png",
+            "MD5": "afaa1f1f124c7446ea79d69718e2e9a9",
+            "path": "journeymap/icon/theme/flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/animals.png",
+            "MD5": "05d86dc96f528fd3f644384f82f4b30f",
+            "path": "journeymap/icon/theme/flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/automap.png",
+            "MD5": "457dcb561ef49473e6242f8fabf1f0f1",
+            "path": "journeymap/icon/theme/flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/biome.png",
+            "MD5": "c45a1223330ab9056f931ee1df6a5c3c",
+            "path": "journeymap/icon/theme/flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/browser.png",
+            "MD5": "55898ae51928c26ba420bd3716c64b72",
+            "path": "journeymap/icon/theme/flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 1081,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/caves.png",
+            "MD5": "7da04feb4cefb09e18cc3a095a083558",
+            "path": "journeymap/icon/theme/flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1373,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/close.png",
+            "MD5": "e4455f2a047f784231056e104293c161",
+            "path": "journeymap/icon/theme/flat/icon/close.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1515,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/day.png",
+            "MD5": "4b394cdd9d548238442673032c56fa57",
+            "path": "journeymap/icon/theme/flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/delete.png",
+            "MD5": "629d6824db2898ebc16a00ba14487552",
+            "path": "journeymap/icon/theme/flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/disable.png",
+            "MD5": "73d4e93e1c708d3f20f3d14e24dfa001",
+            "path": "journeymap/icon/theme/flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/follow.png",
+            "MD5": "1af8b8c5d19f250bebc0b8a331a4467d",
+            "path": "journeymap/icon/theme/flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 514,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/grid.png",
+            "MD5": "630458a6b626ae8c4661392e28327162",
+            "path": "journeymap/icon/theme/flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/keys.png",
+            "MD5": "48438ebd8464da96a7d0ed12d041cebe",
+            "path": "journeymap/icon/theme/flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/layers.png",
+            "MD5": "450ef573defd780e53aed8b422c20188",
+            "path": "journeymap/icon/theme/flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/monsters.png",
+            "MD5": "161f4b1825fe6aaa7e6c646e1df7c22d",
+            "path": "journeymap/icon/theme/flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/night.png",
+            "MD5": "2c2e1ae5318cd9d3b566ebad983e641d",
+            "path": "journeymap/icon/theme/flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 644,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/options.png",
+            "MD5": "0b718c3c1ee9ee19d0dadae5f252535b",
+            "path": "journeymap/icon/theme/flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/pets.png",
+            "MD5": "ecff0a3a4cb9cc88eec4c65d83639d19",
+            "path": "journeymap/icon/theme/flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/players.png",
+            "MD5": "ff8899097b21d8744ed57065cf25a5b2",
+            "path": "journeymap/icon/theme/flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/reset.png",
+            "MD5": "4027ef0ff444cab320978eb0a2974b7e",
+            "path": "journeymap/icon/theme/flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/savemap.png",
+            "MD5": "be5bfbbeab34d292ddcef08f9d7383c8",
+            "path": "journeymap/icon/theme/flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/search.png",
+            "MD5": "b30e5d3527eb483b344d47b11597b7df",
+            "path": "journeymap/icon/theme/flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/server.png",
+            "MD5": "b934f10174be355e0414ccea904b019b",
+            "path": "journeymap/icon/theme/flat/icon/server.png"
+          }
+        },
+        {
+          "id": "theme.png",
+          "name": "theme.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/theme.png",
+            "MD5": "4a4cbd1cba4e8606cbb7a8260fe3a2b2",
+            "path": "journeymap/icon/theme/flat/icon/theme.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/topo.png",
+            "MD5": "ed12bd7bd28debaaf75d1af3a910a1c6",
+            "path": "journeymap/icon/theme/flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 393,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/villagers.png",
+            "MD5": "1d49a9009bbfee78f7e773a9d352d3a2",
+            "path": "journeymap/icon/theme/flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 1606,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/waypoints.png",
+            "MD5": "c7faaffc9c1ce8316f91bb934b19b5c7",
+            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1305,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/zoomin.png",
+            "MD5": "76e924ab75bab01b92d4c7bb97ac2625",
+            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1241,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/icon/zoomout.png",
+            "MD5": "d2e04e295c2f35c1f1c6801dc59dc440",
+            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 589,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+            "MD5": "cba29650354980f136db82cc52d55d89",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_mask_256.png",
+          "name": "flat_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 7020,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+            "MD5": "4e3e20c86f375ae6d1b53f448835fdb8",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
+          }
+        },
+        {
+          "id": "flat_mask_512.png",
+          "name": "flat_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 20438,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+            "MD5": "1e908326f7bddbb59634164c52b39265",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
+          }
+        },
+        {
+          "id": "flat_rim_256.png",
+          "name": "flat_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 6751,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+            "MD5": "253e38c2aca245171819adc83e5d6950",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
+          }
+        },
+        {
+          "id": "flat_rim_512.png",
+          "name": "flat_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 14309,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+            "MD5": "edc555a83f714efa5c12d03865112628",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 959,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+            "MD5": "b93f935ef1173b4ba48bd95133568b56",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_mask_256.png",
+          "name": "pur_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+            "MD5": "9e3dd563a09eca2e7ce680aa0218d0e3",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
+          }
+        },
+        {
+          "id": "pur_mask_512.png",
+          "name": "pur_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+            "MD5": "2135a5f65419ee3fcd0d63a722ec0cfd",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
+          }
+        },
+        {
+          "id": "pur_rim_256.png",
+          "name": "pur_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 15210,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+            "MD5": "8c28162acd291452f96b8962706545bb",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
+          }
+        },
+        {
+          "id": "pur_rim_512.png",
+          "name": "pur_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 37803,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+            "MD5": "6c67ecd99a7cbc14838c437f3059d245",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+            "MD5": "0dec683433cc1ed29578edbe447e0416",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+            "MD5": "e0ef36459a92962091b3c2297ebd492b",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+            "MD5": "257056afd41430be6c6e017adbbec83b",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
+            "MD5": "4784fe7e5dcf7cc3629399b67b1626c3",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
+            "MD5": "f24bb1839602c9c4b507f36f03755f15",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
+            "MD5": "5d32ccf7b5cf96c557976d18f7b9f807",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+            "MD5": "89dac45d101d30c5b68e8053c6882a0d",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+            "MD5": "f8771e145f8364e82ed7ce3ae79e4bda",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+            "MD5": "7ebab006d87fcbc1da28990b3f923989",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "pur_bottomleft.png",
+          "name": "pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+            "MD5": "ef8534a2f05d2c3106f0720e93eddb3f",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "pur_bottomright.png",
+          "name": "pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+            "MD5": "4b7003eba91d737295e1429d66b31156",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_left.png",
+          "name": "pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
+            "MD5": "7c9ed0e45981a75dfe3f713c00c1acfb",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "pur_right.png",
+          "name": "pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
+            "MD5": "4f353bcd3ffab12b1bd48705732a91dc",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "pur_top.png",
+          "name": "pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
+            "MD5": "fe079179f72d2be13e42252336db233b",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "pur_topleft.png",
+          "name": "pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+            "MD5": "01e815c33e5bec079337e6cf7739511e",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "pur_topright.png",
+          "name": "pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+            "MD5": "e800293134c150236f70b7da30bd7169",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "NetherFortress.theme2.json",
+          "name": "NetherFortress.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8927,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
+            "MD5": "17e698f2232e0839fc2ea8cf0b2bcfd4",
+            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
+          }
+        },
+        {
+          "id": "OceanMonument.theme2.json",
+          "name": "OceanMonument.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
+            "MD5": "3320c6ddb02866175d0b13f98e5ab7ff",
+            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
+          }
+        },
+        {
+          "id": "Purist.theme2.json",
+          "name": "Purist.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8905,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/Purist.theme2.json",
+            "MD5": "06e085caa7fb5a393ad28d239da74eb7",
+            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
+          }
+        },
+        {
+          "id": "Stronghold.theme2.json",
+          "name": "Stronghold.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
+            "MD5": "875fcfd96f8371c6e3a0fcd7fca994df",
+            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
+          }
+        },
+        {
+          "id": "journeymap.log",
+          "name": "journeymap.log",
+          "type": "File",
+          "artifact": {
+            "size": 6886,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/journeymap/journeymap.log",
+            "MD5": "3c86b38c753517c2c05a4b367b9be0f7",
+            "path": "journeymap/journeymap.log"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4057,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/options.txt",
+            "MD5": "a2693bbf635b98904b57151cc4e85041",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1434,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/optionsof.txt",
+            "MD5": "986bf008820a6235c5928319090630c4",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "pixel.dat",
+          "name": "pixel.dat",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/pixel.dat",
+            "MD5": "95c6a85a36a720bc1f33d611eac793eb",
+            "path": "pixel.dat"
+          }
+        },
+        {
+          "id": "pixelc.dat",
+          "name": "pixelc.dat",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/pixelc.dat",
+            "MD5": "85f0070af34f07e60deeb216e1529d75",
+            "path": "pixelc.dat"
+          }
+        },
+        {
+          "id": "Faithful+1.12.2-rv4.zip",
+          "name": "Faithful+1.12.2-rv4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 16513583,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/resourcepacks/Faithful+1.12.2-rv4.zip",
+            "MD5": "61716d130398a5d46175145e03a79b4c",
+            "path": "resourcepacks/Faithful+1.12.2-rv4.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 7548,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/servers.dat",
+            "MD5": "1df5bf0b72af968de690ede3891ee20a",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "AstraLex_V22.0.zip",
+          "name": "AstraLex_V22.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1169036,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/shaderpacks/AstraLex_V22.0.zip",
+            "MD5": "ee51f53cf8036ba0baca5728f39a1e18",
+            "path": "shaderpacks/AstraLex_V22.0.zip"
+          }
+        },
+        {
+          "id": "Builders_QOL_Shaders_V2.8.2.zip",
+          "name": "Builders_QOL_Shaders_V2.8.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2368096,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/shaderpacks/Builders_QOL_Shaders_V2.8.2.zip",
+            "MD5": "5630ead3a47625dc6756b16debe6e7d7",
+            "path": "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
+          }
+        },
+        {
+          "id": "Builders_QOL_Shaders_V2.8.2.zip.txt",
+          "name": "Builders_QOL_Shaders_V2.8.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/shaderpacks/Builders_QOL_Shaders_V2.8.2.zip.txt",
+            "MD5": "1218f7fc740b13f0b364d6b58a1c45fb",
+            "path": "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip.txt"
+          }
+        },
+        {
+          "id": "Chocapic13_V6_Lite.zip",
+          "name": "Chocapic13_V6_Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 148075,
+            "url": "https://link-do-seu-servidor-aqui.com/servers/Pixelmon-1.12.2/files/shaderpacks/Chocapic13_V6_Lite.zip",
+            "MD5": "774206db2d590426746022da8386cb94",
+            "path": "shaderpacks/Chocapic13_V6_Lite.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
