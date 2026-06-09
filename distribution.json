@@ -27,8 +27,8 @@
               "name": "Forge Version Manifest",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11797,
-                "MD5": "345315b61ff6f803997f63efaff587bb",
+                "size": 8626,
+                "MD5": "fbcd297048244998b5d5d49962870f6d",
                 "url": "https://raw.githubusercontent.com/Sr-Crusher/ccnlauncher/main/files/versions/1.12.2-forge-14.23.5.2864/1.12.2-forge-14.23.5.2864.json"
               }
             }
@@ -39,8 +39,8 @@
           "name": "CCN Pixelmon Modpack",
           "type": "File",
           "artifact": {
-            "size": 0,
-            "MD5": "PREENCHER_DEPOIS",
+            "size": 440177710,
+            "MD5": "4bdb33c29104c5673b75ef04c652cc63",
             "url": "https://github.com/Sr-Crusher/ccnlauncher/releases/download/v1.0.0/modpack.zip",
             "path": "modpack.zip"
           }
