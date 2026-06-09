@@ -690,18 +690,59 @@ class ProcessBuilder {
         // Resolve the Mojang declared libraries.
         const mojangLibs = this._resolveMojangLibraries(tempNativePath)
 
+        // Resolve Forge-declared libraries from the mod loader version manifest.
+        // These are libs listed in the Forge version JSON (launchwrapper, asm, etc.)
+        // that use the old format (name + url, no downloads object).
+        const forgeLibs = this._resolveForgeLibraries()
+
         // Resolve the server declared libraries.
         const servLibs = this._resolveServerLibraries(mods)
 
-        // Merge libraries, server libs with the same
-        // maven identifier will override the mojang ones.
-        // Ex. 1.7.10 forge overrides mojang's guava with newer version.
-        const finalLibs = {...mojangLibs, ...servLibs}
+        // Merge libraries. Server libs override Mojang ones (e.g. guava).
+        // Forge libs fill in what vanilla doesn't declare (launchwrapper etc.).
+        const finalLibs = {...mojangLibs, ...forgeLibs, ...servLibs}
         cpArgs = cpArgs.concat(Object.values(finalLibs))
 
         this._processClassPathList(cpArgs)
 
         return cpArgs
+    }
+
+    /**
+     * Resolve the libraries declared in the Forge/mod-loader version manifest.
+     * These use the old Forge format: { name, url } without a downloads object.
+     * Needed for Forge 1.12.2 FG3 builds (14.23.5.2848+) where helios-core
+     * reads a VersionManifest JSON that lists launchwrapper, asm-all, etc.
+     *
+     * @returns {{[id: string]: string}} Map of versionless maven id → absolute jar path.
+     */
+    _resolveForgeLibraries(){
+        const libs = {}
+        if(this.modManifest == null || this.modManifest.libraries == null){
+            return libs
+        }
+        const MOJANG_MAVEN = 'https://libraries.minecraft.net/'
+        for(const lib of this.modManifest.libraries){
+            // Skip libs that already have a proper downloads object —
+            // they will be handled by _resolveMojangLibraries.
+            if(lib.downloads != null){
+                continue
+            }
+            // Skip server-only libs (we are the client).
+            if(lib.clientreq === false){
+                continue
+            }
+            const parts = lib.name.split(':')
+            if(parts.length < 3) continue
+            const [ group, artifact, version ] = parts
+            const groupPath = group.replace(/\./g, '/')
+            const jarName   = `${artifact}-${version}.jar`
+            const mavenPath = `${groupPath}/${artifact}/${version}/${jarName}`
+            const absPath   = path.join(this.libPath, mavenPath)
+            const versionlessId = `${group}:${artifact}`
+            libs[versionlessId] = absPath
+        }
+        return libs
     }
 
     /**
